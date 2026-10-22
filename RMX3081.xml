@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github-remote" fetch="https://github.com" />
+
+  <!-- Realme device (atoll) trees -->
+  <project path="device/realme/RMX3081" name="realme-atoll/android_device_realme_RMX3081" remote="github-remote" revision="aosp-16" />
+  <project path="device/realme/sm7125-common" name="realme-atoll/android_device_realme_sm7125-common" remote="github-remote" revision="aosp-16" />
+
+  <!-- Vendor blobs -->
+  <project path="vendor/realme/RMX3081" name="realme-atoll/android_vendor_realme_RMX3081" remote="github-remote" revision="aosp-16" />
+  <project path="vendor/realme/sm7125-common" name="realme-atoll/android_vendor_realme_sm7125-common" remote="github-remote" revision="aosp-16" />
+
+  <!-- Kernel -->
+  <project path="kernel/realme/sm7125" name="realme-atoll/android_kernel_realme_sm7125" remote="github-remote" revision="aosp-16" />
+
+  <!-- Audio deps -->
+  <project path="packages/apps/ViPER4AndroidFX" name="realme-atoll/packages_apps_ViPER4AndroidFX" remote="github-remote" revision="main" />
+  <project path="hardware/dolby" name="realme-atoll/hardware_dolby" remote="github-remote" revision="bka-aospa" />
+  
+</manifest>
