@@ -3,7 +3,7 @@
   <remote name="github-remote" fetch="https://github.com" />
 
   <!-- Realme device (atoll) trees -->
-  <project path="device/realme/RMX3081" name="realme-atoll/android_device_realme_RMX3081" remote="github-remote" revision="aosp-16" />
+  <project path="device/realme/RMX3081" name="realme-atoll/android_device_realme_RMX3081" remote="github-remote" revision="evox-bka" />
   <project path="device/realme/sm7125-common" name="realme-atoll/android_device_realme_sm7125-common" remote="github-remote" revision="aosp-16" />
 
   <!-- Vendor blobs -->
@@ -18,3 +18,4 @@
   <project path="hardware/dolby" name="realme-atoll/hardware_dolby" remote="github-remote" revision="bka-aospa" />
   
 </manifest>
+
